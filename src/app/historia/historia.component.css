@@ -1,0 +1,47 @@
+.product-item-content { 
+	border: 1px solid var(--surface-d); 
+	border-radius: 3px; 
+	position: relative;
+	text-align: center; 
+	padding: 0; 
+	&::before{
+        content:'';
+	    position: absolute;
+        top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    background-color: rgba(0,0,0,0.6);
+    }
+} 
+
+.centrado{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 10 px;
+	text-align: center;
+}
+
+.sp{
+    color:#d02529; 
+}
+
+h1 {
+	font-family: 'Lucy', sans-serif;
+	/* Reemplaza 'NombreDeLaFuente' con el nombre real de tu fuente */
+}
+
+.head-sub-title:before {
+    content: "";
+    background: url(../../assets/images/headding-pattern.png);
+    position: absolute;
+    
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}

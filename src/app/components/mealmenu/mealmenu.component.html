@@ -1,0 +1,23 @@
+<h1 style="text-align: center; color: #d02529;" class="mt-5">Nuestro menú</h1>
+<h3 style="text-align: center;">Explora nuestro menú</h3>
+<h3 class="head-sub-title mb-5"></h3>
+<div class="d-flex justify-content-between text-center flex-wrap m-4">
+      <div class="row">
+        <div class="col-sm-6" *ngFor="let menu of listaMenu">
+          <div class="card m-2 shadow-lg rounded" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+            <div class="card-body">
+              <h5 class="card-title">{{menu.name}}</h5>
+              <p class="card-text">{{menu.description}}</p>
+              <h4 class="card-title" style="color: #d02529;"><i class="pi pi-dollar" style="font-size: 1.5rem; "></i><em>{{menu.price}}</em></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+<br>
+
+       
+
+

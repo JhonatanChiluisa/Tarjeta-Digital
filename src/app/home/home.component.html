@@ -1,0 +1,38 @@
+
+<app-carousel></app-carousel>
+<app-informacion></app-informacion>
+<div style="background-color: antiquewhite;">
+	<div class="container">
+		<div class="row justify-content-md-center">
+			<div class="col-sm-4">
+				<p-card class="text-center">
+					<div data-aos="flip-left"
+					data-aos-easing="ease-out-cubic"
+					data-aos-duration="2000">
+						<img class="img-fluid" src="https://images.unsplash.com/photo-1654922207993-2952fec328ae?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hlZnxlbnwwfHwwfHx8MA%3D%3D" alt="">
+					</div>
+				</p-card>
+			</div>
+			<div class="col-sm-8 text-center">
+				<p-card>
+					<div data-aos="flip-left">
+						<h1 class="pt-5 text-center" style="color: #d02529;">Nuestra Historia</h1>
+						<h3>LA VIDA Y LA COMIDA PERFECTA</h3>
+					</div>
+					<p class="mt-5">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque
+						quas!
+					</p>
+				</p-card>
+				<button type="button" class="btn btn-danger mb-5" routerLink="/nuestra-historia">Leer Más</button>
+			</div>
+		</div>	
+	</div>
+</div>
+<app-mealmenu></app-mealmenu>
+<div class="container mt-3 mb-5">
+	<app-youtubeplayer [videoId]="videoId"></app-youtubeplayer>
+</div>
+<div style="background-color: #212529;">
+	<app-footer></app-footer>
+</div>
